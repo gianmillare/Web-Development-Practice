@@ -96,3 +96,50 @@ h3 {
     color: white;
 }
 /* End Logo */
+
+/* Feature Image */
+.featureImage {
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.featureImage.homeIndex {
+    background-image: url(../images/p_01265911.jpg);
+}
+
+.featureImage .text {
+    margin: 0;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    color: #000;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* End Feature Image */
+
+/* Media Screen */
+@media screen and (max-width: 400px) {
+    .featureImage .text h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 767px) {
+    .featureImage .text h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .featureImage .text h1 {
+        font-size: 80px;
+    }
+}
+/* End Media Screen */
