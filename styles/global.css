@@ -75,3 +75,24 @@ h3 {
     border-radius: 0 0 15px 15px;
 }
 /* End Rounded Corners */
+
+/* Background Color */
+.bg-mauve {
+    background-color: #BC8796;
+}
+/* End Background Color */
+
+/* Logo */
+.logo {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+}
+
+.navbar-brand.logo {
+    color: white;
+}
+
+.navbar-brand.logo:hover {
+    color: white;
+}
+/* End Logo */
