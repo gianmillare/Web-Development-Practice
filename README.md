@@ -10,8 +10,30 @@ Although I have had ample experience in web-styled programming, I wanted to ensu
 
 <br>
 
-### Below are images of the website's completion. The final form of the application uses advanced coding techniques from HTML, CSS, and Javascript. 
+### Below are images of the website's completion. The final form of the application uses coding techniques from HTML, CSS, and Javascript. 
 
 <br>
 
-![](preview/???.png)
+### Below are images of the landing page (home page)
+
+![](preview/img1.png)
+
+<br>
+
+![](preview/img2.png)
+
+<br>
+
+### Below is a preview of the second web page hosting the "Last Minute Deals" introduced in the Home Page
+
+![](preview/img3.png)
+
+<br>
+
+### Below are images of the code used to create the web page(s). The coding languages used (as mentioned before) are HTML, CSS, and JavaScript
+
+![](preview/img4.png)
+
+<br>
+
+![](preview/img5.png)
