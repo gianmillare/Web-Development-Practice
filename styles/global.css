@@ -13,15 +13,13 @@
     Light gray : #D3D3D3;
 
 */
-
-
 /* Body */
 body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
-    Text color: #000;
+    color: #000;
     background-color: white;
 }
 /* End Body */
