@@ -234,3 +234,38 @@ h3 {
     font-size: 18px;
 }
 /* End of Quotes */
+
+/* Popular Destinations */
+.popularDestinations .row .destinationItem {
+    text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+    .popularDestinations .row .destinationItem {
+        margin-bottom: 20px;
+    }
+}
+
+.popularDestinations .heading, .popularDestinations .subHeading {
+    font-family: "Merriweather", serif;
+}
+
+,.popularDestinations .heading {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.popularDestinations .subHeading {
+    font-size: 36px;
+    color: #345995;
+}
+
+.popularDestinations .subHeading:hover {
+    text-decoration: none;
+    color: #D7263D;
+}
+
+.popularDestinations .image {
+    width: 100%;
+}
+/* End Popular Destinations */
