@@ -250,9 +250,10 @@ h3 {
     font-family: "Merriweather", serif;
 }
 
-,.popularDestinations .heading {
+.popularDestinations .heading {
     font-size: 30px;
     line-height: 35px;
+    text-align: center;
 }
 
 .popularDestinations .subHeading {
@@ -268,4 +269,5 @@ h3 {
 .popularDestinations .image {
     width: 100%;
 }
+
 /* End Popular Destinations */
