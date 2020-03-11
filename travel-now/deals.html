@@ -78,6 +78,24 @@
                                     <div class="col-sm length">10 Days</div>
                                     <div class="col-sm price">$1000.00</div>
                                 </div>
+
+                                <!-- PayPal -->
+                                <div class="col-sm buy">
+                                    <form method="post" target="_blank" action="https://www.paypal.com/cgi-bin/webscr">
+                                        <input type="hidden" value="_cart" name="cmd" />
+                                        <input type="hidden" value="yourpaypalemailaddress@example.com" name="business" />
+                                        <input type="hidden" name="upload" value="1" />
+                                        <input type="hidden" name="charsetmm" value="US-ASCII" />
+                                        <input type="hidden" value="1" name="quantity_1" />
+                                        <input type="hidden" value="Taj Mahal" name="item_name_1" />
+                                        <input type="hidden" value="1000" name="amount_1" />
+                                        <input type="hidden" value="0" name="shipping_1" />
+                                        <input type="hidden" value="USD" name="currency_code" />
+                                        <input type="hidden" value="PP-BuyNowBF" name="bn" />
+                                        <input type="submit" value="Buy Now" class="roundCorners" />
+                                    </form>
+                                </div>
+                                <!-- PayPal -->
                             </a>
                         </div>
 
